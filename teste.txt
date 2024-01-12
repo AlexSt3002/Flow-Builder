@@ -1,0 +1,59 @@
+Test 1: Utilizarea unui flow existent
+- Rezultat: Se afișează lista de flow-uri existente, se alege un flow, se rulează și se afișează rezultatul.
+
+Test 2: Crearea unui flow nou cu pasi de tip output, text și numar
+- Rezultat: Utilizatorul introduce un nume pentru flow, apoi pasii (output, text, numar) cu date corespunzătoare. Se creează un flow nou.
+
+Test 3: Crearea unui flow nou cu o operatie de calcul
+- Rezultat: Utilizatorul introduce un nume pentru flow, apoi pasii (output, calcul) cu date corespunzătoare. Se creează un flow nou cu o operație de calcul.
+
+Test 4: Afisarea unui fisier text existent
+- Rezultat: Se afișează conținutul fisierului text asociat flow-ului selectat.
+
+Test 5: Adaugarea unui text la un fisier existent
+- Rezultat: Se adaugă textul introdus la finalul fisierului text asociat flow-ului selectat.
+
+Test 6: Calculul unui minim sau maxim
+- Rezultat: Se efectuează calculul și se afișează rezultatul.
+
+Test 7: Utilizarea unui numar într-o operație de calcul
+- Rezultat: Se efectuează calculul cu numărul introdus și se afișează rezultatul.
+
+Test 8: Crearea unui flow cu nume existent
+- Rezultat: Programul semnaleaza că numele flow-ului există deja și să solicite introducerea altuia.
+
+Test 9: Adaugarea unui titlu cu subtitlu
+- Rezultat: Se adaugă titlul și subtitlul in fisierului text creat de utilizator.
+
+Test 10: Utilizarea unui flow inexistent
+- Rezultat: Programul să semnaleaza că flow-ul nu există și să solicite introducerea altuia.
+
+Test 11: Adaugarea unui text dintr-un fisier CSV existent
+- Rezultat: Se adaugă datele din fisierul CSV in fisierul creat de utilizator.
+
+Test 12: Crearea unui flow fără pas de tip output
+- Rezultat: Programul semnalezaza că primul pas trebuie să fie de tip output și solicita reintroducerea pasilor.
+
+Test 13: Utilizarea unui număr negativ într-o operație de calcul
+- Rezultat așteptat: Programul permite utilizarea unui număr negativ și afiseaza rezultatul corect al operației.
+
+Test 14: Adaugarea unui text dintr-un fisier text inexistent
+- Rezultat așteptat: Programul semnaleaza că fisierul introdus nu exista.
+
+Test 15: Adaugarea unui pas de tip output fără nume
+- Rezultat: Programul semnaleze că pasul de tip output trebuie să aibă un nume și solicita introducerea altuia.
+
+Test 16: Utilizarea unui flow fără a adăuga nume
+- Rezultat: Programul  semnaleaza că numele flow-ului trebuie specificat și solicita introducerea unuia.
+
+Test 17: Crearea unui flow cu un pas de tip text și un pas de tip calcul, apoi rularea flow-ului
+- Rezultat: Programul creaza flow-ul, afiseaza rezultatul calculului și arata textul adăugat.
+
+Test 18: Stergerea unui flow existent
+- Rezultat așteptat: Programul sterge atat fisierul flow-ului cat si denumirea acestuia din lista de flow-uri.
+
+Test 19: Utilizarea unui flow cu un pas de tip output și un pas de tip calcul
+- Rezultat: Programul afișează rezultatul calculului și conținutul pasului de tip output.
+
+Test 20: Adaugarea unui pas de tip calcul fără specificarea unei operații
+- Rezultat: Programul ar trebui semnaleaza că operația trebuie specificată și să solicite introducerea altuia.

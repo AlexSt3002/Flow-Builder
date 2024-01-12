@@ -1,0 +1,7 @@
+output,titlu,text,numar,numar,numar,calcul,textfile,csvfile,displaytxt,displaycsv,end,
+start:3
+complete:1
+skip:4
+error:3
+average:4
+Sat Jan  6 13:00:14 2024
